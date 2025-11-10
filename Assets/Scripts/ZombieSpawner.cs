@@ -29,7 +29,7 @@ public class ZombieSpawner : MonoBehaviour
                 // Stop spawning new zombies
                 CancelInvoke();
 
-                // 🧹 Destroy all remaining zombies
+                // Destroy all remaining zombies
                 GameObject[] remainingZombies = GameObject.FindGameObjectsWithTag("Zombie");
                 foreach (GameObject zombie in remainingZombies)
                 {
